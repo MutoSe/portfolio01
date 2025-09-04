@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" ,initial-scale="1.0">
+    <meta name="robots" content="noindex,nofollow">
+    <title>ご予約｜茶和屋 SAWAYA</title>
+    <link rel="icon" href="https://mutose.github.io/portfolio01/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://mutose.github.io/portfolio01/reset.css">
+    <link rel="stylesheet" href="https://mutose.github.io/portfolio01/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&family=Zen+Maru+Gothic&family=Zen+Old+Mincho&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <section class="reserve">
+            <div class="reserve_container">
+                <div class="reserve_item">
+                    <h2 id="reserve">ご予約</h2>
+                </div>
+                <div class="reserve_item reserve_detail02">
+                    <form action="example.php" method="post" name="reserve-form" class="form">
+                        <dl>
+                            <dt>お名前</dt>
+                            <dd>
+                                <label for="last_name">姓</label><input type="text" id="last_name" required>
+                                <label for="first_name">名</label><input type="text" id="first_name" required>
+                            </dd>
+
+                            <dt>ふりがな</dt>
+                            <dd>
+                                <label for="last_name_furigana">姓</label><input type="text" id="last_name_furigana"
+                                    required>
+                                <label for="first_name_furigana">名</label><input type="text" id="first_name_furigana"
+                                    required>
+                            </dd>
+
+                            <dt>ご予約内容</dt>
+                            <dd>
+                                <input type="radio" name="detail" value="cafe" checked id="cafe"><label
+                                    for="cafe">カフェ利用</label>
+                                <input type="radio" name="detail" value="sadou" id="otemae"><label
+                                    for="otemae">お点前体験</label>
+                                <input type="radio" name="detail" value="sadou" id="tea_party"><label
+                                    for="tea_party">お茶会体験</label>
+                            </dd>
+
+                            <dt>ご予約希望日時</dt>
+                            <dd><input type="date" required></dd>
+
+                            <dt>ご利用人数<br><span>（10名以上の場合はお電話でお問い合わせください。）</span></dt>
+                            <dd>
+                                <select name="number">
+                                    <option name="1">１</option>
+                                    <option name="1">２</option>
+                                    <option name="1">３</option>
+                                    <option name="1">４</option>
+                                    <option name="1">５</option>
+                                    <option name="1">６</option>
+                                    <option name="1">７</option>
+                                    <option name="1">８</option>
+                                    <option name="1">９</option>
+                                </select>
+                            </dd>
+
+                            <dt>メールアドレス</dt>
+                            <dd><input type="email" required></dd>
+
+                            <dt>お電話番号</dt>
+                            <dd><input type="tel"></dd>
+
+                            <dt>ご要望</dt>
+                            <dd><textarea name="message" placeholder="ご要望などございましたらご入力くださいませ。"></textarea></dd>
+                        </dl>
+
+                        <input type="submit" value="確認画面へ">
+                </div>
+            </div>
+            </form>
+
+            <div class="to_top_page"><a href="index.html">ホームページに戻る</a></div>
+        </section>
+        </div>
+
+
+    </main>
+
+
+
+
+</body>
+
+</html>
